@@ -1,0 +1,72 @@
+:root{
+    --fondoDeColor: blue;
+}
+header{
+    /* background-color: rgb(144, 144, 233 ); */
+    /*background-color: var(--fondoDeColor);*/
+    color: white;
+    font-size: 25px;
+}
+/*ESPECIFICIDAD*/
+#ejemplo{
+/*background-color: royalblue;*/
+color: black;
+}
+#wrapper{
+
+}
+/*HERENCIA*/ /*atra vez de un elemento padre se puede heredar a un elemento hijo*/
+P{
+    color: green;
+}
+/*CASCADA*/
+body{
+    /* background-color: red; */
+   /* background-color: var(--fondoDeColor);*/
+}
+
+.prueba{
+    font-size: 20px;
+    color: black;
+    padding: 7px;
+    text-decoration: underline;
+    text-align: center;
+
+}
+/*HERENCIA*/
+ul>li{
+    text-transform: uppercase;
+}
+ul>li>a{
+    color: brown;
+    text-decoration: none;
+    list-style-type: none;
+}
+/*SECCION MAIN*/
+
+/*SECCION FOOTER*/
+/*ESTILOS DE LA PAGINA*/
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
